@@ -20,7 +20,7 @@ func Cli() *cli.App {
 			Flags: []cli.Flag{
 				cli.StringFlag{
 					Name:  "host",
-					Value: "google.com",
+					Value: "Unknown domain",
 				},
 			},
 			Action: func(c *cli.Context) {
@@ -41,7 +41,7 @@ func Cli() *cli.App {
 			Flags: []cli.Flag{
 				cli.StringFlag{
 					Name:  "host",
-					Value: "google.com",
+					Value: "Unknown domain",
 				},
 			},
 			Action: func(c *cli.Context) {
