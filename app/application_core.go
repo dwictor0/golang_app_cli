@@ -25,7 +25,7 @@ func Cli() *cli.App {
 			},
 			Action: func(c *cli.Context) {
 				host := c.String("host")
-				ips, erro := net.LookupNS(host)
+				ips, erro := net.LookupIP(host)
 				if erro != nil {
 					log.Fatal(erro)
 				}
