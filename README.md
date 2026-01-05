@@ -1,4 +1,4 @@
-# gosec-cli - CLI
+# gosec-cli
 
 ## Flags
 - ip: Obtém os endereços IP de um domínio ou servidor.
